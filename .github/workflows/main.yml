@@ -27,7 +27,7 @@ jobs:
       - uses: ilammy/msvc-dev-cmd@v1 
 
       - name: build
-        run:  gcc main.cpp Fraction.cpp
+        run:  make main.cpp Fraction.cpp
           
       - name: 'Upload artifact'
         uses: actions/upload-artifact@v2
