@@ -27,7 +27,9 @@ jobs:
       - uses: ilammy/msvc-dev-cmd@v1 
 
       - name: build
-        run:  make main.cpp Fraction.cpp
+        run:  |
+          sudo apt-get install mingw-w64
+          i686-w64-mingw32-gcc -o main32.exe main.cpp Fraction.cpp
           
       - name: 'Upload artifact'
         uses: actions/upload-artifact@v2
