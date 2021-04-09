@@ -32,11 +32,6 @@ Fraction::Fraction(const Fraction& fr) {
 	this->denumerator = fr.denumerator;
 }
 
-std::string Fraction::getValue() {
-	if (this->denumerator == 1)
-		return std::to_string(numerator);
-	return std::to_string(numerator) + "/" + std::to_string(denumerator);
-}
 
 int Fraction::getNumerator() {
 	return this->numerator;
