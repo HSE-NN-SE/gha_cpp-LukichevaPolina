@@ -12,7 +12,6 @@ public:
 		int numerator = 0,
 		int denumerator = 1);
 	Fraction(const Fraction& fr);
-	std::string getValue();
 	int getNumerator();
 	int getDenumerator();
 	Fraction operator+(Fraction&);
