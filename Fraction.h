@@ -1,8 +1,6 @@
 #ifndef FRACTION_H
 #define FRACTION_H
 
-#include <string>
-
 class Fraction {
 private:
 	int numerator, denumerator;
