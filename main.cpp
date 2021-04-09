@@ -1,11 +1,9 @@
 //Copyright 2020 Lukicheva Polina
-#include "Fraction.h"
+#include <math.h>
 #include <stdio.h>
-
+#include "task1.h"
 int main() {
-	Fraction a(1, 0); // 1/2
-	Fraction b(a);
-	Fraction c(5, 6);
-	printf("%d");
+	double result = calc(0.99999);
+	printf("Sqrt(%lf)=%lf\n", 2.0, result);
 	return 0;
 }
