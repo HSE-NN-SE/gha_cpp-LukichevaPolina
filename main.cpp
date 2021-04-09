@@ -7,7 +7,7 @@ int main() {
 	Fraction b(a);
 	Fraction c(5, 6);
 	printf("%d", c.getValue());
-	printf("%d"c.getValue());
-	printf("%d"(a + c).getValue());
+	printf("%d", c.getValue());
+	printf("%d", (a + c).getValue());
 	return 0;
 }
