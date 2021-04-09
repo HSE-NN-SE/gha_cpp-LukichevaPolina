@@ -1,6 +1,6 @@
 //Copyright 2020 Lukicheva Polina
 #include "Fraction.h"
-#include <iostream>
+#include <stdio.h>
 
 int main() {
 	Fraction a(1, 0); // 1/2
